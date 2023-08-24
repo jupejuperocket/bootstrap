@@ -1,0 +1,36 @@
+h1, h2, h3 { font-family: 'Englebert', sans-serif; 	padding:15px;}   
+
+.container {
+width: 1000px;
+padding: 5%;
+flex-direction: column;
+justify-content: space-evenly;
+align-content: flex-start;
+flex-flow: nowrap;
+margin:auto;
+}
+
+
+/* Flex Containers */
+
+.flex-row {
+	display:flex;
+	flex-wrap: nowrap;
+	gap:5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.flex-item {
+    flex: 0 1 calc(33.33% - 10px); 
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flex-item:last-child {
+    margin-right: 0;
+}
